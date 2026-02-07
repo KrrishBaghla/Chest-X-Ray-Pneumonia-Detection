@@ -127,7 +127,7 @@ def navigate_to(page):
 def load_model():
     """
     Loads the MobileNetV2 model. 
-    Tries to load 'model\mobilenetv2_pneumonia.h5'. 
+    Tries to load 'model/mobilenetv2_pneumonia.h5'. 
     If not found, returns a string flag to use Mock mode.
     """
     try:
