@@ -9,7 +9,7 @@ data → training → evaluation → deployment.
 
 ## 🚀 Live Demo
 
-*(Add Streamlit link here after deployment)*
+https://pneumonia--detector.streamlit.app/
 
 ---
 
@@ -75,7 +75,7 @@ chest-xray-project/
 ### 1. Clone repository
 
 ```
-git clone <your-repo-link>
+git clone https://github.com/KrrishBaghla/Chest-X-Ray-Pneumonia-Detection.git
 cd chest-xray-project
 ```
 
