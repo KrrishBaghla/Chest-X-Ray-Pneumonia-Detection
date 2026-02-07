@@ -1,0 +1,36 @@
+# Python cache
+
+**pycache**/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+
+venv/
+env/
+
+# Jupyter
+
+.ipynb_checkpoints/
+
+# Model weights (avoid large files in GitHub)
+
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.pkl
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# Logs
+
+*.log
+
+# Environment variables
+
+.env
