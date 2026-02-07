@@ -131,7 +131,7 @@ def load_model():
     If not found, returns a string flag to use Mock mode.
     """
     try:
-        model = tf_load_model('model\mobilenetv2_pneumonia.h5')
+        model = tf_load_model('model/mobilenetv2_pneumonia.h5')
         return model
     except Exception as e:
         print(f"Model file not found or error loading: {e}")
