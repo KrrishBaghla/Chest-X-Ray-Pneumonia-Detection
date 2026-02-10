@@ -131,7 +131,7 @@ def load_model():
     If not found, returns a string flag to use Mock mode.
     """
     try:
-        model = tf_load_model('model/mobilenetv2_pneumonia.h5')
+        model = tf.keras.models.load_model('model/mobilenetv2_pneumonia.keras', compile=False)
         return model
     except Exception as e:
         print(f"Model file not found or error loading: {e}")
@@ -248,10 +248,9 @@ with st.sidebar:
         st.caption("Model file 'mobilenetv2_pneumonia.h5' not found. Using simulation.")
     else:
         st.success("✅ MobileNetV2: Loaded")
-        st.caption("Running on TensorFlow Backend")
         
-    st.info("Device: CPU/GPU")
-    st.markdown("v2.1.0 • Stable Build")
+        
+    
 
 # --- Page: HOME ---
 if st.session_state.page == 'Home':
