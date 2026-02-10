@@ -1,6 +1,6 @@
 streamlit
-tensorflow-cpu==2.15.0
-numpy
+tensorflow==2.20.0
+numpy<2.1
 pandas
 matplotlib
 seaborn
