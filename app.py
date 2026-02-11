@@ -326,7 +326,7 @@ elif st.session_state.page == 'Metrics':
     with col1:
         st.markdown("""
             <div class="glass-card metric-container">
-                <div class="metric-value">98.0%</div>
+                <div class="metric-value">0.98</div>
                 <div class="metric-label">Recall</div>
             </div>
         """, unsafe_allow_html=True)
