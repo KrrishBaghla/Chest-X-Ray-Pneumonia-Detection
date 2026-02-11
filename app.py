@@ -326,8 +326,8 @@ elif st.session_state.page == 'Metrics':
     with col1:
         st.markdown("""
             <div class="glass-card metric-container">
-                <div class="metric-value">94.8%</div>
-                <div class="metric-label">Accuracy</div>
+                <div class="metric-value">98.0%</div>
+                <div class="metric-label">Recall</div>
             </div>
         """, unsafe_allow_html=True)
     with col2:
@@ -359,19 +359,19 @@ elif st.session_state.page == 'Metrics':
         <p><strong>Confusion Matrix (Test Set)</strong></p>
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; max-width: 400px; margin: auto;">
             <div style="background: rgba(34, 197, 94, 0.2); padding: 20px; text-align: center; border-radius: 8px;">
-                <div style="font-size: 1.5rem; color: #22c55e; font-weight: bold;">145</div>
+                <div style="font-size: 1.5rem; color: #22c55e; font-weight: bold;">159</div>
                 <div style="font-size: 0.8rem;">True Negative</div>
             </div>
             <div style="background: rgba(239, 68, 68, 0.1); padding: 20px; text-align: center; border-radius: 8px;">
-                <div style="font-size: 1.5rem; color: #ef4444; font-weight: bold;">89</div>
+                <div style="font-size: 1.5rem; color: #ef4444; font-weight: bold;">75</div>
                 <div style="font-size: 0.8rem;">False Positive</div>
             </div>
             <div style="background: rgba(239, 68, 68, 0.1); padding: 20px; text-align: center; border-radius: 8px;">
-                <div style="font-size: 1.5rem; color: #ef4444; font-weight: bold;">6</div>
+                <div style="font-size: 1.5rem; color: #ef4444; font-weight: bold;">7</div>
                 <div style="font-size: 0.8rem;">False Negative</div>
             </div>
             <div style="background: rgba(34, 197, 94, 0.2); padding: 20px; text-align: center; border-radius: 8px;">
-                <div style="font-size: 1.5rem; color: #22c55e; font-weight: bold;">384</div>
+                <div style="font-size: 1.5rem; color: #22c55e; font-weight: bold;">383</div>
                 <div style="font-size: 0.8rem;">True Positive</div>
             </div>
         </div>
@@ -397,7 +397,7 @@ elif st.session_state.page == 'About':
             <h4>🧠 Architecture</h4>
             <ul>
                 <li><strong>Backbone:</strong> MobileNetV2 (ImageNet Weights)</li>
-                <li><strong>Optimizer:</strong> Adam (lr=0.0001)</li>
+                <li><strong>Optimizer:</strong> Adam (lr=0.00001)</li>
                 <li><strong>Loss Function:</strong> Binary Crossentropy</li>
                 <li><strong>Input Size:</strong> 224x224 RGB</li>
                 <li><strong>Total Params:</strong> 2,259,267</li>
